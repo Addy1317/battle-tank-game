@@ -299,11 +299,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1190950772}
+    m_TransformParent: {fileID: 1663177849}
     m_Modifications:
     - target: {fileID: 4366463266053016, guid: 0aac6aef14f064c3fb626270cff2683b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4366463266053016, guid: 0aac6aef14f064c3fb626270cff2683b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -370,7 +370,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1771596987}
-  - {fileID: 1158996494}
   - {fileID: 1282556335}
   - {fileID: 1304999366}
   m_Father: {fileID: 0}
@@ -442,7 +441,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1190950772}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304999364
 GameObject:
@@ -474,7 +473,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1190950772}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &1304999367
 AudioSource:
@@ -585,7 +584,6 @@ GameObject:
   - component: {fileID: 1391056263}
   - component: {fileID: 1391056261}
   - component: {fileID: 1391056260}
-  - component: {fileID: 1391056265}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -668,19 +666,6 @@ Transform:
   m_Father: {fileID: 1771596987}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1391056265
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1391056259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: d2b82a52b13b9014d988055d0b2f939e, type: 2}
 --- !u!1 &1404856264
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +786,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1158996494}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
